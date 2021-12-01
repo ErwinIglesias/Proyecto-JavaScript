@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.marginLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.logo {
+  width: 100px; }
+
+.titulo {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif; }
+
+.headerNav {
+  justify-content: center;
+  margin-top: 25px;
+  margin-right: 50px;
+  padding-right: 50px; }
+
+.nav-link {
+  margin-left: 60px;
+  font-size: 20px; }
+
+.nav-link:hover {
+  border-bottom: 1px solid grey; }
+
+.colorLink:visited {
+  color: white; }
+
+.bordeHeader {
+  background-color: #34B466;
+  border: 1px solid black;
+  padding-bottom: 10px; }
+
+.imagenCarousel {
+  width: 1000px; }
+
+.tamañoImagen {
+  height: 550px; }
+
+.centrarCarousel {
+  display: flex;
+  justify-content: center; }
+
+.margenContainer {
+  margin-top: 50px; }
+
+.pregPrincipal {
+  text-align: center;
+  color: #34B466;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif; }
+
+.respPrincipal {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; }
+
+ul li {
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.tablaEfectos {
+  margin-top: 20px; }
+
+.marginEfectos {
+  margin-top: 38px; }
+
+.ulEfectos {
+  margin-top: 40px; }
+
+.inquietudes {
+  margin-top: 40px; }
+
+.centrarCard {
+  display: flex;
+  justify-content: center; }
+
+.tienda {
+  color: #34B466;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.card-img-top {
+  height: 200px; }
+
+.card-title {
+  text-align: center; }
+
+.centrarTarjeta {
+  display: flex;
+  justify-content: center; }
+
+.flexTarjeta {
+  display: flex;
+  justify-content: center; }
+
+.tarjeta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5%;
+  box-shadow: 15px 15px 30px 30px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 50px; }
+
+.seguisDudas {
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.cualquierConsul {
+  margin-top: 10px; }
+
+.seguisDudas, .cualquierConsul {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+
+.logoWhatsapp {
+  display: flex;
+  justify-content: center;
+  width: 70px; }
+
+.footer {
+  background-color: #34B466; }
+
+.logosFooter {
+  margin-top: 15px;
+  display: flex;
+  width: 30px; }
+
+.ubicacion, .telefono, .correo {
+  display: flex;
+  flex-direction: row; }
+
+.respUbicacion, .respTelefono, .respCorreo {
+  margin: 0px;
+  margin-left: 15px;
+  margin-top: 17px; }
