@@ -92,7 +92,7 @@ ul li{
 }
 
 .ulEfectos{
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .inquietudes{
@@ -129,7 +129,7 @@ ul li{
     justify-content: center;
 }
 
-.tarjeta{
+.tarjeta, .imagenCannabis, .imagenCannabis2{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -139,6 +139,37 @@ ul li{
     width: 500px;
     height: 300px;
     margin-bottom: 50px;
+}
+
+.imagenCannabis{
+    width: 600px;
+    height: 350px;
+}
+
+.achicarRow{
+    width: 99%;
+}
+
+.imagenCannabis2{
+    margin: 0;
+    width: 600px;
+    height: 350px;
+}
+
+.centrarImagen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagen{
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flexCol{
+    display: flex;
+    justify-content: center;
 }
 
 .seguisDudas{
@@ -180,4 +211,11 @@ ul li{
     margin:0px;
     margin-left: 15px;
     margin-top: 17px;
+}
+
+.contenedorPreguntas{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
