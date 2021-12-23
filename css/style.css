@@ -94,6 +94,9 @@ ul li {
 .card-title {
   text-align: center; }
 
+#precio {
+  font-weight: bold; }
+
 .centrarTarjeta {
   display: flex;
   justify-content: center; }

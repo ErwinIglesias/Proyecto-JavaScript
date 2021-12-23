@@ -3,12 +3,18 @@
 function comprar (){
     let deseasComprar = prompt("¿Deseas comprar este producto?\n1. Si \n2. No");
 
-    if ((deseasComprar == "sí") || (deseasComprar == "Sí") || (deseasComprar == "si") || (deseasComprar == "Si")){
-        alert("Compraste este producto.");
+    if ((deseasComprar == "sí") || (deseasComprar == "Sí") || (deseasComprar == "si") || (deseasComprar == "Si") || (deseasComprar == 1)){
+        
+        let cantidad = parseInt(prompt("¿Cuántos productos deseas adquirir?"));
+        let precio = parseFloat(7500);
+        let precioFinal = cantidad * precio;
+        alert(`Precio final: ${precioFinal}`)
     }
-    else if ((deseasComprar == "no") || (deseasComprar == "No")){
+
+    else if ((deseasComprar == "no") || (deseasComprar == "No") || (deseasComprar == 2)){
         alert("Compra rechazada.");
     }
+
     else{
         alert("Opción no valida.")
     }
