@@ -13,8 +13,9 @@ function comprar (){
         let deseasEnvio = prompt("¿Deseas que te enviemos el producto?\n1. Si \n2. No");
        
         if ((deseasEnvio == "sí") || (deseasEnvio == "si") || (deseasEnvio == "Si") || (deseasEnvio == "Si") || (deseasEnvio == 1)){
-            let envio = parseFloat(prompt("Ingresa el IVA de tu país\n Ejemplo: 1.21 (Argentina)"));
-            let precioFinalEnvio = cantidad * precio * envio;
+            prompt("Ingresa tu código postal\n Ejemplo: 1824 (Argentina | Lanús)");
+            let envio = 573;
+            let precioFinalEnvio = cantidad * precio + envio;
             alert(`Precio final sin envío: ${precioFinal} \nPrecio final con envío: ${precioFinalEnvio}`)
         }
        
