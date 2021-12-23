@@ -8,7 +8,23 @@ function comprar (){
         let cantidad = parseInt(prompt("¿Cuántos productos deseas adquirir?"));
         let precio = parseFloat(7500);
         let precioFinal = cantidad * precio;
-        alert(`Precio final: ${precioFinal}`)
+        
+        
+        let deseasEnvio = prompt("¿Deseas que te enviemos el producto?\n1. Si \n2. No");
+       
+        if ((deseasEnvio == "sí") || (deseasEnvio == "si") || (deseasEnvio == "Si") || (deseasEnvio == "Si") || (deseasEnvio == 1)){
+            let envio = parseFloat(prompt("Ingresa el IVA de tu país\n Ejemplo: 1.21 (Argentina)"));
+            let precioFinalEnvio = cantidad * precio * envio;
+            alert(`Precio final sin envío: ${precioFinal} \nPrecio final con envío: ${precioFinalEnvio}`)
+        }
+       
+        else if  ((deseasEnvio == "no") || (deseasEnvio == "No") || (deseasEnvio == "2")){
+            alert(`Precio final: ${precioFinal}`)
+        }
+
+        else{
+            alert("ERROR");
+        }
     }
 
     else if ((deseasComprar == "no") || (deseasComprar == "No") || (deseasComprar == 2)){
