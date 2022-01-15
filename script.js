@@ -42,11 +42,6 @@ function comprar (){
 
 }
 
-document.getElementById("comprar").onclick = function(){
-    comprar();
-}
-
-
 let botonComprar = document.getElementById("comprar");
 botonComprar.addEventListener("click", comprar);
 
