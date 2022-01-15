@@ -46,12 +46,6 @@ document.getElementById("comprar").onclick = function(){
     comprar();
 }
 
-
-comprar.addEventListener(`click`, () => function(){
-    comprar();
-} )
-
-
 // Sección CONTACTO
 
 
