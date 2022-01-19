@@ -1,5 +1,5 @@
-// Sección INDEX
 
+/*
 function comprar (){
     let deseasComprar = prompt("¿Deseas comprar este producto?\n1. Si \n2. No");
 
@@ -45,13 +45,4 @@ function comprar (){
 let botonComprar = document.getElementById("comprar");
 botonComprar.addEventListener("click", comprar);
 
-
-// Sección CONTACTO
-
-
-function enviar () {
-    const inputEmail = document.getElementById ("email");
-    const inputContraseña = document.getElementById ("contraseña");
-
-    console.log (`Email: ${inputEmail.value}\nContraseña: ${inputContraseña.value}`)
-}
+*/
