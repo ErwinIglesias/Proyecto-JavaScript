@@ -39,6 +39,5 @@ compraFinalizada.addEventListener("click", (evt) =>{
     console.log(finalizarCompra(),'Compra realizada con éxito');
 });
 
-
 // let precio = document.getElementById("precio").value;
 // console.log(precio);

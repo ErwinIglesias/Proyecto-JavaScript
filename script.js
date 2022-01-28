@@ -1,4 +1,32 @@
 
+$ ( document ).ready(function()
+{
+    console.log('El DOM está listo');
+});
+
+
+$ ('.containerPrecio').append('<p class="precioFinal" id="precioFinal">Precio final:</p>');
+$ ('.widthBotonComprarForm').append(' <button type="submit" class="btn btn-primary finalizarCompra" id="finalizarCompra">ELEGIR MÉTODO DE PAGO</button>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function comprar (){
     let deseasComprar = prompt("¿Deseas comprar este producto?\n1. Si \n2. No");
