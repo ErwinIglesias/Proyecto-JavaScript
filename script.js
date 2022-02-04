@@ -8,13 +8,6 @@ $ ( document ).ready(function()
 $ ('.containerPrecio').append('<p class="precioFinal" id="precioFinal">Precio final:</p>');
 $ ('.widthBotonComprarForm').append(' <button type="submit" class="btn btn-primary finalizarCompra" id="finalizarCompra">ELEGIR MÉTODO DE PAGO</button>');
 
-
-$ ('.centroTitulo').prepend('<h1 class="titulo">Cannabis Medicinal</h1>')
-$('.centroTitulo').fadeOut('slow',function(){
-    $('.centroTitulo').fadeIn(1000);
-})
-
-
 $('.tarjeta1').append('<img src="assets/img/aceiteCannabis.jpg" alt=""> <h4>Relleno</h4> <p class="precio-card" id="precio">Precio: $7.500</p> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis provident aperiam deserunt modi est officia consequuntur blanditiis minus adipisci sapiente beatae at voluptates quasi molestias excepturi delectus praesentium, id culpa!</p> <button type="submit" class="btn btn-primary abrirPopUp" id="btn-abrir-popup">COMPRAR</button>')
 $('.tarjeta2').append('<img src="assets/img/aceiteCannabis.jpg" alt=""> <h4>Relleno</h4> <p class="precio-card" id="precio">Precio: $7.500</p> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis provident aperiam deserunt modi est officia consequuntur blanditiis minus adipisci sapiente beatae at voluptates quasi molestias excepturi delectus praesentium, id culpa!</p> <button type="submit" class="btn btn-primary abrirPopUp" id="btn-abrir-popup">COMPRAR</button>')
 $('.tarjeta3').append('<img src="assets/img/aceiteCannabis.jpg" alt=""> <h4>Relleno</h4> <p class="precio-card" id="precio">Precio: $7.500</p> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis provident aperiam deserunt modi est officia consequuntur blanditiis minus adipisci sapiente beatae at voluptates quasi molestias excepturi delectus praesentium, id culpa!</p> <button type="submit" class="btn btn-primary abrirPopUp" id="btn-abrir-popup">COMPRAR</button>')
@@ -23,6 +16,10 @@ $('.tarjeta5').append('<img src="assets/img/aceiteCannabis.jpg" alt=""> <h4>Rell
 $('.tarjeta6').append('<img src="assets/img/aceiteCannabis.jpg" alt=""> <h4>Relleno</h4> <p class="precio-card" id="precio">Precio: $7.500</p> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis provident aperiam deserunt modi est officia consequuntur blanditiis minus adipisci sapiente beatae at voluptates quasi molestias excepturi delectus praesentium, id culpa!</p> <button type="submit" class="btn btn-primary abrirPopUp" id="btn-abrir-popup">COMPRAR</button>')
 
 
+$ ('.centroTitulo').prepend('<h1 class="titulo">Cannabis Medicinal</h1>')
+$('.centroTitulo').fadeOut('slow',function(){
+    $('.centroTitulo').fadeIn(1000);
+});
 
 
 
